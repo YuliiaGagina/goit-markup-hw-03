@@ -1,0 +1,251 @@
+:root{
+    --main-color-hover: #2196F3;
+    --main-color-tittle: #212121;
+    --main-color-text: #757575;
+    --white-color:#FFFFFF;
+    --black-color:#000000;
+    --team-background:#F5F4FA;
+    --footer-background: #2F303A;
+    --footer-links-color: rgba(255, 255, 255, 0.6);
+
+}
+body{
+    color: var(--main-color-text);
+
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.14;
+    font-family: Roboto, sans-serif;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/* header */
+.header{
+    background-color: var(--white-color);
+}
+.logo{
+    color: var(--black-color);
+
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+
+}
+
+
+.logo .accent{
+    color: var(--main-color-hover);
+}
+.navigation.list .link{
+    color: var(--black-color);
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.navigation .link:hover,
+.navigation .link:focus{
+    color:var(--main-color-hover);
+}
+.header .link{
+    color: inherit;
+    font-weight: 500;
+}
+.navigation .link.active{
+    
+    color: var(--main-color-hover);
+    
+}
+.header .link:hover,
+.header .link:focus{
+    color:var(--main-color-hover);
+}
+
+/* Hero */
+
+.hero{
+    background-color: var(--footer-background);
+
+}
+.hero .tittle{
+    color: var(--white-color);
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero .button{
+    background-color: var(--main-color-hover);
+    color: var(--white-color);
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.hero .button:hover,
+.hero .button:focus{
+    background-color: var(--white-color);
+    color:var(--main-color-hover);
+
+}
+/* sections */
+
+.section .tittle{
+    color: var(--main-color-tittle);
+    
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    
+}
+
+/* benefits-work */
+
+.benefits,
+.work{
+    background-color: var(--white-color);
+}
+
+/* benefits */
+
+.benefits .subtittle{
+    color: var(--main-color-tittle);
+    
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.benefits .text{
+    color: inherit;
+
+    line-height: 1.71;
+}
+
+/* our work */
+
+
+
+
+
+/* our team */
+
+.team{
+    background-color: var(--team-background);
+    
+}
+
+.team .item{
+    background-color: var(--white-color);
+}
+.team .subtittle{
+    color: var(--main-color-tittle);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+
+}
+.team .text{
+    color: inherit;
+
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--footer-background);
+}
+.logo.lower{
+    color: var(--white-color);
+
+}
+
+
+.link.address{
+    color: var(--white-color);
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+.link.address:hover,
+.link.address:focus{
+    color: var(--main-color-hover);
+}
+
+.link.mail,
+.link.tel{
+    
+    color: var(--footer-links-color);
+  
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+.link.mail:hover,
+.link.mail:focus,
+.link.tel:hover,
+.link.tel:focus{
+    color: var(--main-color-hover);
+}
+
+
+/* portfolio */
+
+.section.portfolio{
+    background-color: var(--white-color);
+}
+
+
+/* list-collection */
+
+.collection .button{
+    background-color: var(--team-background);
+    color: var(--main-color-tittle);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
+
+}
+.collection .button:hover,
+.collection .button:focus{
+    color: var(--white-color);
+    background-color: var(--main-color-hover);
+}
+
+/* cards */
+.cards .subtittle{
+    color: var(--main-color-tittle);
+
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+}
+.cards .text{
+    color: var(--main-color-text);
+
+    font-size: 16px;
+    line-height: 1.88;
+
+}
