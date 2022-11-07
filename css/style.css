@@ -72,7 +72,8 @@ p {
 }
 
 .logo{
-   
+    display: inline-block;
+    padding: 24px 0;
     color: var(--black-color);
 
     font-family: Raleway;
@@ -108,17 +109,26 @@ p {
     color: var(--main-color-hover);
     
 }
+.header-contact .link{
+    display: inline-block;
+    padding: 32px 0;
+}
+.header-contact .item + .item{
+    margin-left: 50px;
+}
+
 .header-contact{
     margin-left: auto;
+    display: flex;
 }
 .header .link{
     color: inherit;
     font-weight: 500;
 }
 
-.header .link + .link{
-    margin-left: 50px;
-}
+
+
+
 .header .link:hover,
 .header .link:focus{
     color:var(--main-color-hover);
@@ -131,15 +141,17 @@ p {
 
 .hero{
     text-align: center;
-    margin-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 
     background-color: var(--footer-background);
 }
 .hero .tittle{
-    margin-top: 0;
-    margin-bottom: 30px;
-    color: var(--white-color);
+    width: 696px;
+    margin: 0 auto 30px;
     
+  
+    color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -165,8 +177,8 @@ p {
 
 .hero .button:hover,
 .hero .button:focus{
-    background-color: var(--white-color);
-    color:var(--main-color-hover);
+    background-color: #188CE8;
+    color: var(--white-color);
 
 }
 /* sections */
@@ -197,7 +209,8 @@ p {
 
 /* benefits */
 .benefits{
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
    
 }
 
@@ -239,7 +252,7 @@ p {
 
 /* our work */
 .work{
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 .work-list{
     display: flex;
@@ -292,8 +305,13 @@ p {
 .team-list .item:nth-last-child(-n +4){
     margin-bottom: 0;
 }
+.team-list .card{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 .team-list .content{
-    padding: 30px 62px;
+    padding: 30px 32px;
 }
 .team .subtittle{
     margin-top: 0;
@@ -420,7 +438,7 @@ p {
     margin-right: 30px;
     margin-bottom: 30px;
     border: 1px solid var(--team-background);
-    box-shadow: 0px 4px 4px 0px #00000040;
+    /* box-shadow: 0px 4px 4px 0px #00000040; */
 
    
 }
