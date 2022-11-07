@@ -15,6 +15,7 @@ html{
     --team-background:#F5F4FA;
     --footer-background: #2F303A;
     --footer-links-color: rgba(255, 255, 255, 0.6);
+    --main-butter-hover: #188CE8;
 
 }
 body{
@@ -180,7 +181,7 @@ p {
 
 .hero .button:hover,
 .hero .button:focus{
-    background-color: #188CE8;
+    background-color: var(--main-butter-hover);
     color: var(--white-color);
 
 }
